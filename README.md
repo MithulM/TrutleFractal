@@ -63,7 +63,29 @@ Lgrammar = {
 angle = 60
 ```
 
-![Koch Curve](./imgs/KochCurve.png)
+![Koch curve](./imgs/KochCurve.png)
+
+## Koch snowflake
+
+```python
+initialHeading = 0
+gen = 3
+scale = 1 / 3
+windowSize = 500
+size = windowSize * scale ** (gen)
+axiom = "F++F++F"
+Lgrammar = {
+    "F": "F-F++F-F",
+    "f": "",
+    "X": "",
+    "Y": "",
+    "U": "",
+    "V": "",
+}
+angle = 60
+```
+
+![Koch snowflake](./imgs/KochSnowflake.png)
 
 ## Quadratic Koch curve
 
@@ -261,4 +283,4 @@ Lgrammar = {
 angle = 60
 ```
 
-![Cantor](./imgs/Cantor.png)
+![Penrose Curve](./imgs/Cantor.png)
