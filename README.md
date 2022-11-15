@@ -261,4 +261,4 @@ Lgrammar = {
 angle = 60
 ```
 
-![Penrose Curve](./imgs/Cantor.png)
+![Cantor](./imgs/Cantor.png)
