@@ -2,6 +2,23 @@
 
 Create a fractal using LGrammar
 
+- initialHeading - The starting angle of the turtle
+- gen - The number of generations for the program to run.
+- scale - How much the fractal size scales per line to maintain the size of the whole fractal.
+- windowSize - The size the fractal takes up on the screen in pixels.
+- size - How much the turtle moves per line.
+- axiom - The string position of the fractal.
+- Lgrammar -
+
+  - F - Turtle travels a certain distance without drawing.
+  - f - Turtle travels a certain distance without drawing.
+  - F, f, X, Y, U, V - Variable to be replaced with a set of commands given for deriving future generations.
+    The turtle ignores this letter.
+  - "\+" - Turtle turns clockwise of a certain angle
+  - "\-" - Turtle turns clockwise of a certain angle
+
+- angle - The angles to turn on a turn command
+
 # Example L-Grammars
 
 ## Binary tree
