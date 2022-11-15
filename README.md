@@ -1,5 +1,4 @@
 # TrutleFractal
-Requires python 3.10+
 
 Create a fractal using LGrammar
 
@@ -241,3 +240,25 @@ angle = 36
 ```
 
 ![Penrose Curve](./imgs/PenroseCurve.png)
+
+## Cantor
+
+```python
+initialHeading = 0
+gen = 3
+scale = 1 / 3
+windowSize = 500
+size = windowSize * scale ** (gen)
+axiom = "F"
+Lgrammar = {
+    "F": "FfF",
+    "f": "fff",
+    "X": "",
+    "Y": "",
+    "U": "",
+    "V": "",
+}
+angle = 60
+```
+
+![Penrose Curve](./imgs/Cantor.png)
