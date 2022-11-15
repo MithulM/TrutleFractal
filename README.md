@@ -1,4 +1,5 @@
 # TrutleFractal
+Requires python 3.10+
 
 Create a fractal using LGrammar
 
