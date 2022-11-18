@@ -180,7 +180,7 @@ angle = 60
 ```python
 initialHeading = 0
 gen = 3
-scale = 1 / 3
+scale = 1 / 2
 windowSize = 500
 size = windowSize * scale ** (gen)
 axiom = "FXF--FF--FF"
